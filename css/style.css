@@ -1,3 +1,4 @@
+/* Aula 27/09/2022 - Aplicando definições em CSS - Projeto GamerPRO */
 body, ul {
     margin: 0px;
     padding: 0px;
@@ -8,7 +9,7 @@ a {
    font-family: sans-serif; 
 }
 #header #menu a:hover {
-    background: black; 
+    background: rgba(0, 0, 0, 0.05); 
 }
 #logo img {
     float: left;
@@ -20,7 +21,7 @@ a {
 
 #header {
     width: 100%;
-    position: relative; 
+    position: relative; /* Adicionando Position e Z-Index */
     z-index: 90;
     box-sizing: border-box;
     height: 105px;
@@ -28,7 +29,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #082373;
+    background: #fcab0e;
+    margin-block-end: 40px;
 }
 #menu {
     display: flex;
@@ -42,10 +44,9 @@ a {
     position: relative;
     z-index: 10;
     gap: 0.5rem;
-    padding-top: 0px;
 }
 #carouselExampleInterval img {
-    height: 750px;
+    height: 850px;
 }
 
 @media (max-width: 600px) {
@@ -224,8 +225,8 @@ a {
     width: 100%;
     height: auto;
     padding: 50px;
-    margin: 0px auto;
-    background-color: #3a0efc;
+    margin: 18px auto;
+    background-color: #fcab0e;
 }
 .section-banner-home img {
     height: 400px;
