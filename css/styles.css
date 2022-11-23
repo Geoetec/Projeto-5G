@@ -8,11 +8,11 @@ a {
    font-family: sans-serif; 
 }
 #header #menu a:hover {
-    background: black; 
+    background: rgb(122, 105, 219); 
 }
 #logo img {
     float: left;
-    height: 80px;
+    height: 50px;
     position: relative;
     top: 5px;
     left: 10px;
@@ -28,7 +28,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #082373;
+    background: #7c7bdb;
 }
 #menu {
     display: flex;
@@ -45,7 +45,7 @@ a {
     padding-top: 0px;
 }
 #carouselExampleInterval img {
-    height: 750px;
+    height: 880px;
 }
 
 @media (max-width: 600px) {
@@ -223,16 +223,18 @@ a {
 .section-banner-home {
     width: 100%;
     height: auto;
-    padding: 50px;
+    padding: 0 0 0 0;
     margin: 0px auto;
-    background-color: #3a0efc;
+    background-color: #770522;
 }
 .section-banner-home img {
-    height: 400px;
+    height: 800px;
+    
 }
 .section-banner-home .texto-banner {
     margin-top: 30px;
-    font-size: 22px;
+    font-size: 44px;
+    padding-top: 30%;
 }
 .section-banner-home .texto-banner h1 {
     font-size: 30px;
@@ -244,8 +246,8 @@ a {
 
 .section-banner-home .texto-banner p {
     font-size: 18px;
-    margin-bottom: 20px; /* Margem externa abaixo do texto */
-    color: #000;
+    margin-bottom: 40px; /* Margem externa abaixo do texto */
+    color: white
 }
 .section-banner-home .texto-banner a {
     color: #000;
@@ -254,6 +256,19 @@ a {
     padding: 4px 14px;
     font-size: 15px;
 }
+
+.section-banner-home .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: 0px; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-banner-home figure {
+    margin: 0;
+  }
+  
 /* CSS Destaque */
 .destaque h2 {
     text-align: center;
